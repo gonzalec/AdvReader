@@ -1,0 +1,31 @@
+{
+  "name": "AdvReader",
+  "version": "2.0.0",
+  "authors": [
+    "César González gonzalec@gmail.com"
+  ],
+  "description": "Lector de Noticias de la Comunidad Android Venezuela Reader",
+  "main": "index.html",
+  "keywords": [
+    "android",
+    "adv",
+    "venezuela",
+    "reader"
+  ],
+  "license": "MIT",
+  "homepage": "cesargonzalez.org/advreader",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "page": "visionmedia/page.js#~1.6.3",
+    "paper-toolbar": "PolymerElements/paper-toolbar#~1.0.1",
+    "paper-header-panel": "PolymerElements/paper-header-panel#~1.0.1",
+    "paper-icon-button": "PolymerElements/paper-icon-button#~1.0.1"
+  }
+}

@@ -1,0 +1,11 @@
+body {
+    height: 100%
+}
+
+.container {
+    height: 2500px;
+}
+
+paper-header-panel {
+    height: 500px;
+}

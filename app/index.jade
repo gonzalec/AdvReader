@@ -1,0 +1,28 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        meta(name="mobile-web-app-capable", content="yes")
+        meta(name="apple-mobile-web-app-capable", content="yes")
+        title ADV READER
+        link(rel="stylesheet", href="styles/main.css")
+        script(src="bower_components/webcomponentsjs/webcomponents-lite.js")
+        
+        link(rel="import", href="bower_components/paper-toolbar/paper-toolbar.html")
+        link(rel="import", href="bower_components/paper-icon-button/paper-icon-button.html")
+        link(rel="import", href="bower_components/iron-icons/iron-icons.html")
+    
+    body(class="fullbleed layout vertical")
+        paper-header-panel(mode="waterfall-tall")
+            paper-toolbar
+            button(tabindex="1", id="paperToggle", paper-drawer-toggle)
+                iron-icon(icon="menu")
+            p Menú
+            paper-icon-button(icon="refresh")
+            paper-icon-button(icon="search")
+
+        //- Main content
+        div.container.
+            contenido
+    
